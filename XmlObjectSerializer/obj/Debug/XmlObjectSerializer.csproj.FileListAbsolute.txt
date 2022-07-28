@@ -1,0 +1,6 @@
+C:\Users\valen\Valentino\DotNetJob\XmlObjectSerializer\XmlObjectSerializer\bin\Debug\XmlObjectSerializer.dll
+C:\Users\valen\Valentino\DotNetJob\XmlObjectSerializer\XmlObjectSerializer\bin\Debug\XmlObjectSerializer.pdb
+C:\Users\valen\Valentino\DotNetJob\XmlObjectSerializer\XmlObjectSerializer\obj\Debug\XmlObjectSerializer.csproj.AssemblyReference.cache
+C:\Users\valen\Valentino\DotNetJob\XmlObjectSerializer\XmlObjectSerializer\obj\Debug\XmlObjectSerializer.csproj.CoreCompileInputs.cache
+C:\Users\valen\Valentino\DotNetJob\XmlObjectSerializer\XmlObjectSerializer\obj\Debug\XmlObjectSerializer.dll
+C:\Users\valen\Valentino\DotNetJob\XmlObjectSerializer\XmlObjectSerializer\obj\Debug\XmlObjectSerializer.pdb
