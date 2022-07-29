@@ -8,7 +8,7 @@ The parent class of the object must have:
 
 # Usage
 ## Write
-MyClass class = new MyClass();
+MyClass class = new MyClass(); \r\n
 string path = ".";
 Serializer<MyClass> serializer = new Serializer<MyClass>();
 serializer.ExportXml(stf, path);
