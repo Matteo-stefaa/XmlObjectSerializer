@@ -7,7 +7,7 @@ The parent class of the object must have:
   - The public properties whit getter and setter methods
 
 # Usage
-
+### Write
 MyClass class = new MyClass();
 
 string path = ".";
