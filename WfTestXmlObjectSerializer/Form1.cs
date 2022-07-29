@@ -1,4 +1,6 @@
-﻿using System;
+﻿using MbxmlParser;
+using RevEngModels.Staffaggio;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -21,17 +23,28 @@ namespace WfTestXmlObjectSerializer
 
         private void btnSerialize_Click(object sender, EventArgs e)
         {
-            Cane cane = new Cane()
+            InfoStaffaggioMassello stf = new InfoStaffaggioMassello()
             {
-                Nome = "Pluto",
-                Razza = "Alano",
-                Anni = 10
+                InfoBlocchi = new BlocksInformation(),
+                Staffaggio = new StaffaggioAttrezzatura()
+                {
+                    Descrizione = "Staffaggio",
+                    Cubo = new Cubo(300),
+                    ColonnaPrimaFase = new Colonna(80, 100),
+                    ColonnaSecondaFase = new Colonna(80, 100),
+                    BPrimaFase = 0,
+                    BSecondaFase = 90,
+                    FacciaAnteriorePrimaFase = FacceMassello.LEFT,
+                    FacciaDestraPrimaFase = FacceMassello.FRONT,
+                }
             };
+            StaffaggioAttrezzatura stfAttr = stf.Staffaggio as StaffaggioAttrezzatura;
+            stfAttr.DctFacceVerticiPrimaFase.Add(FacceMassello.FRONT, Vertice.E);
 
-            string path = Path.GetFullPath("./cane.xml");
+            string path = Path.GetFullPath("./export.xml");
 
-            Serializer<Cane> ser = new Serializer<Cane>();
-            ser.ExportXml(cane, path);
+            Serializer<InfoStaffaggioMassello> ser = new Serializer<InfoStaffaggioMassello>();
+            ser.ExportXml(stf, path);
         }
     }
 }
