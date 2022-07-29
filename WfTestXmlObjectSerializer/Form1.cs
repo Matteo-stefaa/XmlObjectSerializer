@@ -24,7 +24,7 @@ namespace WfTestXmlObjectSerializer
         private void btnSerialize_Click(object sender, EventArgs e)
         {
             InfoStaffaggioMassello stf = new InfoStaffaggioMassello()
-            {
+            { 
                 InfoBlocchi = new BlocksInformation(),
                 Staffaggio = new StaffaggioAttrezzatura()
                 {
