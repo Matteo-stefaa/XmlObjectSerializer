@@ -5,8 +5,6 @@ VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlObjectSerializer", "XmlObjectSerializer\XmlObjectSerializer.csproj", "{AB97E139-9E7A-4F90-9CBA-EC44CC478A19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WfTestXmlObjectSerializer", "WfTestXmlObjectSerializer\WfTestXmlObjectSerializer.csproj", "{CA874C7D-88A7-4785-98DD-970DB5D4345F}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{AB97E139-9E7A-4F90-9CBA-EC44CC478A19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB97E139-9E7A-4F90-9CBA-EC44CC478A19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB97E139-9E7A-4F90-9CBA-EC44CC478A19}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CA874C7D-88A7-4785-98DD-970DB5D4345F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CA874C7D-88A7-4785-98DD-970DB5D4345F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CA874C7D-88A7-4785-98DD-970DB5D4345F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CA874C7D-88A7-4785-98DD-970DB5D4345F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
